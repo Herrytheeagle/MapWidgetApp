@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
  }
 
  void _onMapTypeButtonPressed() {
-   if (_currentMapType == MapType.normal) {
+   if (_currentMapType == MapType.normal) {  
      mapController.updateMapOptions(
        GoogleMapOptions(mapType: MapType.satellite),
      );
